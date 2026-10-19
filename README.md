@@ -9,3 +9,16 @@
 ## 怎么看
 
 打开 `index.html`。核心结论：日落 17:24，但园区中部的直射光 16:40 前后就断；拍白桦金光的窗口是 16:20–16:45。
+
+## 在线地址
+
+- Netlify：https://aranya-birch-sunset.netlify.app
+- 仓库：https://github.com/streamy2008/aranya-birch-sunset
+
+## 重新发布
+
+页面是单文件，改完 `index.html` 后在仓库根目录执行：
+
+```bash
+netlify deploy --prod --dir . --no-build
+```
